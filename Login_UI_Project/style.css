@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(139, 204, 206);
+}
+
+/*Login UI Container - consists of image and functions*/
+.container{
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    border: none;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: flex-end;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+/*Right content container*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+/*Left content of container- image*/
+.left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+/*Image sizing*/
+.left img{
+    width: 500px;
+    height: 600px;
+    image-rendering: auto;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/*Header of right content in container*/
+.form h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    color: rgb(82, 81, 81);
+    background-color: white;
+}
+
+/*Type boxes for email amnd password*/
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid rgb(167, 164, 164);
+    outline: none;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/*Format adjusting for buttons - flexbox*/
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65%;
+    padding: 0 0px;
+    background-color: white;
+}
+
+#submit{
+    padding: 20px 25px;
+    width: 45%;
+    margin-top: 40px;
+    background-color: rgb(0, 147, 206);
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin: 20px 10px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(140, 224, 235);
+}
+
+.form a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: rgb(112, 111, 111);
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.form a:hover{
+    color: black;
+}
